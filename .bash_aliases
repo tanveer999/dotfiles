@@ -25,3 +25,13 @@ alias ga='git add'
 alias gc='git commit'
 alias gp='git push'
 alias gpl='git pull'
+
+## utils
+alias rename_files='python3 /home/tanveer/repo/scripts/python/rename-files-with-spaces.py -d'
+
+## vagrant
+alias vu='vagrant up'
+alias vs='vagrant suspend'
+alias vh='vagrant halt'
+alias vd='vagrant destroy'
+alias vssh='vagrant ssh'
