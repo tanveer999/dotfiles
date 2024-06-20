@@ -153,4 +153,9 @@ export FZF_DEFAULT_OPTS='-i --height=50%'
 eval "$(fzf --bash)"
 
 ## alacritty
-source /home/tanveer/.bash_completion/alacritty
+#source /home/tanveer/.bash_completion/alacritty
+
+# start tmux when opening terminal
+if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
+	tmux attach -t default || tmux new -s default
+fi
