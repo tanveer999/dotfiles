@@ -13,6 +13,10 @@ set shiftwidth=2
 " convert  tab to spaces as it is more stable
 set expandtab
 
+" show spelling mistakes
+set spell
+
+set syntax=on
 
 " vim plug
 " call .vimrc.plug file

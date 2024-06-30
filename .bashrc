@@ -118,6 +118,8 @@ if ! shopt -oq posix; then
 fi
 
 ## custom
+#
+export EDITOR="vim"
 # save history of tmux
 export PROMPT_COMMAND="history -a; history -n; $PROMPT_COMMAND"
 
