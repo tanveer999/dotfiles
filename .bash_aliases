@@ -27,6 +27,7 @@ alias fzd='find . -type d -print | fzf --preview="tree -C {} | head -n 100"'
 alias okular='flatpak run org.kde.okular'
 alias telegram='flatpak run org.telegram.desktop'
 alias wezterm='flatpak run org.wezfurlong.wezterm'
+alias obsidian='flatpak run md.obsidian.Obsidian'
 
 ## git
 alias ga='git add'
@@ -45,10 +46,13 @@ alias vs='vagrant suspend'
 alias vh='vagrant halt'
 alias vd='vagrant destroy'
 alias vssh='vagrant ssh'
-alias vstatus='vagrant status'
+alias vstatus='vagrant global-status --prune'
 
 ## ansible
 alias ap='ansible-playbook'
 
 ## node and npm
 alias nsls="npx sls"
+
+## minikube
+alias k='kubectl'
