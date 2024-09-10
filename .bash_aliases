@@ -54,5 +54,7 @@ alias ap='ansible-playbook'
 ## node and npm
 alias nsls="npx sls"
 
-## minikube
+## k8
 alias k='kubectl'
+alias kubens='kubectl config set-context --current --namespace'
+alias mk='minikube'
