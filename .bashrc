@@ -161,3 +161,8 @@ eval "$(fzf --bash)"
 if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
 	tmux attach -t default || tmux new -s default
 fi
+
+## virtualenvwrapper
+export WORKON_HOME="/home/tanveer/dependencies/virtualenv"
+export VIRTUALENVWRAPPER_PYTHON=/home/tanveer/dependencies/virtualenv/generic/bin/python3
+source ~/.local/bin/virtualenvwrapper.sh
