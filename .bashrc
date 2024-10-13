@@ -132,7 +132,7 @@ ssh-add /home/tanveer/.ssh/github
 
 complete -C /usr/bin/terraform terraform
 
-# starship.rs
+## starship.rs
 eval "$(starship init bash)"
 
 # Created by `pipx` on 2024-05-24 14:47:16
@@ -145,11 +145,11 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 ## sls env
-source /home/tanveer/dotfiles/scripts/slsenv.sh
+source /home/tanveer/dotfiles/scripts/setenv.sh
 
 ## fzf
 export FZF_DEFAULT_OPTS='-i --height=50%'
-#eval "$(fzf --bash)"
+eval "$(fzf --bash)"
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 eval "$(fzf --bash)"
@@ -163,6 +163,6 @@ if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
 fi
 
 ## virtualenvwrapper
-export WORKON_HOME="/home/tanveer/dependencies/virtualenv"
-export VIRTUALENVWRAPPER_PYTHON=/home/tanveer/dependencies/virtualenv/generic/bin/python3
+export WORKON_HOME="/home/tanveer/dependencies/python"
+export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 source ~/.local/bin/virtualenvwrapper.sh

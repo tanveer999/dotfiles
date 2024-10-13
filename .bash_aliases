@@ -27,7 +27,7 @@ alias fzd='find . -type d -print | fzf --preview="tree -C {} | head -n 100"'
 alias okular='flatpak run org.kde.okular'
 alias telegram='flatpak run org.telegram.desktop'
 alias wezterm='flatpak run org.wezfurlong.wezterm'
-alias obsidian='flatpak run md.obsidian.Obsidian'
+#alias obsidian='flatpak run md.obsidian.Obsidian'
 
 ## git
 alias ga='git add'
