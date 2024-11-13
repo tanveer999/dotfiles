@@ -58,3 +58,5 @@ alias nsls="npx sls"
 alias k='kubectl'
 alias kubens='kubectl config set-context --current --namespace'
 alias mk='minikube'
+alias mkip="minikube ip | xclip -sel clip"
+
