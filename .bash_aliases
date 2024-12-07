@@ -2,7 +2,13 @@
 alias sbash='source ~/.bashrc'
 
 ## ls
-alias ll='ls -larth'
+alias ll='ls --color=auto -larth'
+alias ls='ls --color=auto'
+
+# grep
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
 
 ## bat alias
 alias bat='batcat'
