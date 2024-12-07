@@ -2,7 +2,7 @@
 alias sbash='source ~/.bashrc'
 
 ## ls
-alias l='ls -larth'
+alias ll='ls -larth'
 
 ## bat alias
 alias bat='batcat'
