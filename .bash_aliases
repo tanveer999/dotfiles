@@ -18,6 +18,12 @@ alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
 
+## pacman
+alias pacman='sudo pacman'
+alias pacman-list-upgrades='sudo pacman -Qu'
+alias pacman-upgrade='sudo pacman -Syu'
+alias pacman-remove-unused='sudo pacman -R $(pacman -Qtdq)'
+
 ## apt
 alias install='sudo apt install'
 alias update='sudo apt update'

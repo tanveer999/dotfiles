@@ -34,6 +34,7 @@ export PROMPT_COMMAND="history -a; history -n; $PROMPT_COMMAND"
 eval "$(ssh-agent -s)"
 
 # fzf
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
 export FZF_DEFAULT_OPTS='-i --height=50%'
 eval "$(fzf --bash)"
 
