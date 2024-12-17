@@ -54,6 +54,17 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 
 # Aliases
 alias ls='ls --color'
+# Alias definition
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
 
 # fzf
 source <(fzf --zsh)
+
+# tmux
+# start tmux when opening terminal
+#if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
+#        tmux attach -t default || tmux new -s default
+#fi
+
