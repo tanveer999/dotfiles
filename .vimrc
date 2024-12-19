@@ -14,7 +14,7 @@ set shiftwidth=2
 set expandtab
 
 " show spelling mistakes
-set spell
+"set spell
 
 set syntax=on
 
@@ -30,5 +30,5 @@ endif
 "let g:lightline = {'colorscheme': 'catppuccin_macchiato'}
 
 
-set background=dark
-colorscheme oceanic_material
+"set background=dark
+"colorscheme oceanic_material

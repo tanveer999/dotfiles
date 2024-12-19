@@ -6,8 +6,10 @@ endif
 
 call plug#begin("~/.vim/plugged")
 
-Plug 'catppuccin/vim', { 'as': 'catppuccin' }
-Plug 'glepnir/oceanic-material'
+"Plug 'catppuccin/vim', { 'as': 'catppuccin' }
+"Plug 'glepnir/oceanic-material'
+
+Plug 'dracula/vim', { 'as': 'dracula' }
 
 call plug#end()
 
