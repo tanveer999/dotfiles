@@ -1,5 +1,6 @@
-## bashrc
-alias sbash='source ~/.bashrc'
+## source
+alias sbash='source $HOME/.bashrc'
+alias szsh='source $HOME/.zshrc'
 
 ## ls
 alias ll='ls --color=auto -larth'
@@ -23,6 +24,10 @@ alias pacman='sudo pacman'
 alias pacman-list-upgrades='sudo pacman -Qu'
 alias pacman-upgrade='sudo pacman -Syu'
 alias pacman-remove-unused='sudo pacman -R $(pacman -Qtdq)'
+
+## yay
+alias yay-upgrade='yay -Su --aur'
+alias yay-list-upgrades='yay -Qu'
 
 ## apt
 alias install='sudo apt install'
