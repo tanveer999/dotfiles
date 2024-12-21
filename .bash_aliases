@@ -8,6 +8,7 @@ alias nvim-kickstart='NVIM_APPNAME="nvim-kickstart" nvim'
 ## ls
 alias ll='ls --color=auto -larth'
 alias ls='ls --color=auto'
+alias tree='tree -C'
 
 # grep
 alias grep='grep --color=auto'
