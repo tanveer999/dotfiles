@@ -2,6 +2,9 @@
 alias sbash='source $HOME/.bashrc'
 alias szsh='source $HOME/.zshrc'
 
+## nvim
+alias nvim-kickstart='NVIM_APPNAME="nvim-kickstart" nvim'
+
 ## ls
 alias ll='ls --color=auto -larth'
 alias ls='ls --color=auto'
