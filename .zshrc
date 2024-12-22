@@ -15,7 +15,7 @@ autoload -U compinit && compinit
 
 zinit cdreplay -q
 
-eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/pure.omp.json)"
+eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/nord.toml)"
 
 # key bindings
 bindkey -e
