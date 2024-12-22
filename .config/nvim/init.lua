@@ -154,14 +154,3 @@ local opts = {}
 --
 require("lazy").setup("plugins")
 
--- tree sitter
-local config = require("nvim-treesitter.configs")
-config.setup({
-  ensure_installed = { "python", "bash", "yaml", "dockerfile", "helm", "json", "lua", "toml"},
-  highlight = { enable = true },
-  indent = { enable = true },
-})
-
--- Neotree
-vim.keymap.set('n','<C-b>',':Neotree filesystem reveal left<CR>')
-
