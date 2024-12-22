@@ -213,7 +213,4 @@ require('telescope').setup({
   }
 })
 
-require("catppuccin").setup()
-vim.cmd.colorscheme "catppuccin"
-
 -- require("config.lazy")
