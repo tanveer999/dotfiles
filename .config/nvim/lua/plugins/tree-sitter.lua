@@ -4,7 +4,7 @@ return {
   config = function()
     local config = require("nvim-treesitter.configs")
     config.setup({
-      ensure_installed = { "python", "bash", "yaml", "dockerfile", "helm", "json", "lua", "toml"},
+      ensure_installed = { "python", "bash", "yaml", "dockerfile", "helm", "json", "lua", "toml", "terraform"},
       highlight = { enable = true },
       indent = { enable = true },
     })
