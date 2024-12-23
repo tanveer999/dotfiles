@@ -9,9 +9,10 @@ size = 13
 padding.x = 5
 padding.y = 5
 
-opacity = 0.6
+opacity = 0.9
 blur = true
 
+startup_mode = "Maximized"
 [mouse]
 hide_when_typing = true
 
