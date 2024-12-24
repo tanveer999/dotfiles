@@ -6,9 +6,12 @@ alias szsh='source $HOME/.zshrc'
 alias nvim-kickstart='NVIM_APPNAME="nvim-kickstart" nvim'
 
 ## ls
+alias l='ls --color=auto -larth'
 alias ll='ls --color=auto -larth'
 alias ls='ls --color=auto'
 alias tree='tree -C'
+
+alias e='exit'
 
 # grep
 alias grep='grep --color=auto'
