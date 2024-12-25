@@ -9,7 +9,7 @@ alias nvim-kickstart='NVIM_APPNAME="nvim-kickstart" nvim'
 alias l='ls --color=auto -larth'
 alias ll='ls --color=auto -larth'
 alias ls='ls --color=auto'
-alias tree='tree -C'
+alias tree='tree -Ch'
 
 alias e='exit'
 

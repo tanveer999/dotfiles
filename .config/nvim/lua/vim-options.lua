@@ -136,4 +136,5 @@ vim.api.nvim_create_autocmd('TextYankPost', {
   end,
 })
 
-
+-- turn off swapfile
+vim.opt.swapfile = false
