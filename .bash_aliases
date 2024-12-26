@@ -2,6 +2,9 @@
 alias sbash='source $HOME/.bashrc'
 alias szsh='source $HOME/.zshrc'
 
+## python3
+alias py='python3'
+
 ## nvim
 alias nvim-kickstart='NVIM_APPNAME="nvim-kickstart" nvim'
 
