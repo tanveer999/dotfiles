@@ -3,7 +3,9 @@ alias sbash='source $HOME/.bashrc'
 alias szsh='source $HOME/.zshrc'
 
 ## tldr
-alias cheat="bash $HOME/dotfiles/utils/cheat.sh"
+# alias cheat="bash $HOME/dotfiles/utils/cheat.sh"
+alias cheat='f(){ curl "https://cheat.sh/$1"; unset -f f; }; f'
+
 
 ## python3
 alias py='python3'
