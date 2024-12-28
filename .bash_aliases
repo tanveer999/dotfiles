@@ -2,6 +2,9 @@
 alias sbash='source $HOME/.bashrc'
 alias szsh='source $HOME/.zshrc'
 
+## tldr
+alias cheat="bash $HOME/dotfiles/utils/cheat.sh"
+
 ## python3
 alias py='python3'
 
