@@ -67,7 +67,8 @@ alias gs='git status'
 alias gc='git commit'
 alias gp='git push'
 alias gpl='git pull'
-alias gdiff='git diff'
+alias gd='git diff --color'
+alias gacp='f(){git add .; git commit -m $1;git push;unset -f f;}; f'
 
 ## utils
 alias rename_files='python3 /home/tanveer/repo/scripts/python/rename-files-with-spaces.py -d'
