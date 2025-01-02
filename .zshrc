@@ -1,3 +1,5 @@
+export PATH="$PATH:/opt/nvim-linux64/bin:/home/tanveer/.local/bin"
+
 # zinit plugin manager
 ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
 [ ! -d $ZINIT_HOME ] && mkdir -p "$(dirname $ZINIT_HOME)"
@@ -49,7 +51,8 @@ if [ -f ~/.bash_aliases ]; then
 fi
 
 # fzf
-source <(fzf --zsh)
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+# source <(fzf --zsh)
 
 # tmux
 # start tmux when opening terminal
@@ -58,9 +61,11 @@ then
     tmux attach -t default || tmux new -s default
 fi
 
-
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 fastfetch
+
+export PATH="$PATH:/opt/nvim-linux64/bin:/home/tanveer/.local/bin"
+

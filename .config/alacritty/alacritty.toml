@@ -1,6 +1,9 @@
 [env]
 TERM = "xterm-256color"
 
+[shell]
+program = "/bin/zsh"
+
 [font]
 normal.family = "JetBrainsMono Nerd Font"
 size = 12
@@ -9,12 +12,13 @@ size = 12
 padding.x = 5
 padding.y = 5
 
-opacity = 0.9
-blur = true
+opacity = 1.0
+#blur = true
 
 startup_mode = "Maximized"
+
 [mouse]
-hide_when_typing = true
+hide_when_typing = false
 
 # Colors (Nord)
 
