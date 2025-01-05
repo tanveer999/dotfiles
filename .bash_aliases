@@ -1,3 +1,5 @@
+## common directory
+alias cd-dsa='cd /home/tanveer/repo/dsa/python/dsa'
 ## source
 alias sbash='source $HOME/.bashrc'
 alias szsh='source $HOME/.zshrc'

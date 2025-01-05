@@ -69,3 +69,6 @@ fastfetch
 
 export PATH="$PATH:/opt/nvim-linux64/bin:/home/tanveer/.local/bin"
 
+export WORKON_HOME="/home/tanveer/dependencies/python3"
+export VIRTUALENVWRAPPER_PYTHON="/home/tanveer/dependencies/python3/generic-3.12/bin/python3"
+source /home/tanveer/dependencies/python3/generic-3.12/bin/virtualenvwrapper.sh
