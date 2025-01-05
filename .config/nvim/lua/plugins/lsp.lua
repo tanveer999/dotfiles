@@ -14,6 +14,7 @@ return {
 					"terraformls",
 					"pyright",
 					"jsonls",
+          "yamlls"
 				},
 			})
 		end,
@@ -60,6 +61,9 @@ return {
 				capabilities = capabilities,
 			})
 			lspconfig.jsonls.setup({
+				capabilities = capabilities,
+			})
+			lspconfig.yamlls.setup({
 				capabilities = capabilities,
 			})
 			vim.keymap.set("n", "K", vim.lsp.buf.hover, {})
