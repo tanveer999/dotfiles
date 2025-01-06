@@ -11,7 +11,8 @@ return {
 				json = { "prettier" },
 				yaml = { "prettier" },
 				markdown = { "prettier" },
-        terraform = {"terraform_fmt"}
+				terraform = { "terraform_fmt" },
+				bash = { "shfmt" },
 			},
 		})
 		vim.keymap.set({ "n", "v" }, "<leader>gf", function()
